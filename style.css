@@ -1,0 +1,18 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    margin: 30px;
+    background: rgb(171,255,49);
+background: linear-gradient(90deg, rgba(171,255,49,1) 25%, rgba(86,255,0,1) 60%, rgba(0,255,111,1) 90%);
+}
+
+#resultado{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    gap: 30px 10px;
+}
